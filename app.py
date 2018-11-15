@@ -16,7 +16,9 @@ def new_home(id):
 	cat = get_cat_by_id(id)
 	return render_template("cat.html", cat=cat)
 
-
+@app.route('/newcat')
+def new_cat():
+	return render_template("IDK.html")
 
 
 

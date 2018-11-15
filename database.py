@@ -21,4 +21,3 @@ def get_cat_by_id(id):
     cat = session.query(Cat).filter_by(
     	id=id).first()
     return cat
-
